@@ -8,3 +8,4 @@ from .exp_log import *
 from .log import *
 from .nt import *
 from .tan import *
+from .calculus import *
