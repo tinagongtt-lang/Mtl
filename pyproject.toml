@@ -1,0 +1,23 @@
+[build-system]
+# 指定使用 setuptools 作为构建后端
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtl"          # 你的库在 pip 安装时的名字
+version = "0.0.6"            # 版本号
+authors = [
+    { name="Leonard", email="leonardrao@hotmail.com" }
+]
+description = ""
+readme = "README.md"         # 引用 README 作为详细描述
+requires-python = ">=3.6"    # 支持的最低 Python 版本
+classifiers = [              # 分类标记（用于 PyPI 检索）
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]                # 告诉工具在当前目录下寻找源码包
