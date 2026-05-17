@@ -9,3 +9,7 @@ from .log import *
 from .nt import *
 from .tan import *
 from .calculus import *
+from .utils_ext import *
+from .trig_hyperbolic import *
+from .special_functions import *
+from .elliptic import *
